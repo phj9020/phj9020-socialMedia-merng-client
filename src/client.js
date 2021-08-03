@@ -17,7 +17,7 @@ export const logUserOut = ()=> {
 }
 
 const httpLink = createHttpLink({
-    uri: 'http://localhost:4000/graphql'
+    uri: process.env.NODE_ENV === 'production' ?  'https://social-media-app-merng.herokuapp.com/graphql' :'http://localhost:4000/graphql'
 });
 
 
