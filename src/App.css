@@ -1,0 +1,19 @@
+
+.page-title {
+    display: block !important;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+.register_form,
+.login_form  {
+    margin-top: 24px;
+    width: 100%;
+    max-width: 500px;
+    margin: 0px auto;
+}
+
+.message {
+    margin-bottom: 14px !important;
+}
